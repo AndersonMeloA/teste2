@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-container {
+    width: 400px;
+    height: 100vh;
+    background-color: #264ECA;
+    position: relative;
+    margin: 0;
+}
+
+.main-container {
+    margin-right: 40px;
+    width: 140vh;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .weeks-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.weeks-columns .week {
+    width: 300px;
+    height: 260px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.week .title {
+    background-color: rgb(255, 70, 70);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

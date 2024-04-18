@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+body {
+    background-color: #264ECA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container input {
+    width: 292px;
+    height: 45px;
+    background-color: transparent;
+    border-radius: 4px;
+    box-shadow: 0 0 0 0;
+    border: 1px solid white;
+    outline: none;
+    text-align: left;
+    font-size: 16px;
+    color: white;
+}
+
+.container img {
+    width: 160px;
+    margin-bottom: 50px;
+}
+
+.container input::-webkit-input-placeholder {
+    color: white;
+    padding: 10px;
+}
+
+.container button {
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
